@@ -339,13 +339,13 @@ function NetworkMonitoring() {
                       <stop offset="95%" stopColor="#6366f1" stopOpacity={0.0} />
                     </linearGradient>
                   </defs>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" vertical={false} />
-                  <XAxis dataKey="time" stroke="#64748b" fontSize={11} tickLine={false} />
-                  <YAxis stroke="#64748b" fontSize={11} tickLine={false} />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#2A3A55" vertical={false} />
+                  <XAxis dataKey="time" stroke="#A8B3C7" fontSize={11} tickLine={false} />
+                  <YAxis stroke="#A8B3C7" fontSize={11} tickLine={false} />
                   <Tooltip
                     contentStyle={{
-                      backgroundColor: "#0f172a",
-                      border: "1px solid #334155",
+                      backgroundColor: "#1B2945",
+                      border: "1px solid #2A3A55",
                       borderRadius: "8px",
                       fontSize: "12px",
                       color: "#f8fafc",
@@ -376,7 +376,7 @@ function NetworkMonitoring() {
         </div>
 
         {/* Right: Real Telemetry Summary */}
-        <div className="lg:col-span-4 bg-[#131b2e] border border-slate-800/80 rounded-xl p-5 shadow-lg shadow-black/20 flex flex-col justify-between">
+        <div className="lg:col-span-4 bg-slate-900 border border-slate-800/80 rounded-xl p-5 shadow-lg shadow-black/20 flex flex-col justify-between">
           <div>
             <h2 className="text-base font-bold text-white tracking-tight">
               Network Telemetry Summary

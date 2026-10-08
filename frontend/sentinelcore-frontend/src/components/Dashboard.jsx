@@ -844,9 +844,9 @@ function Dashboard({ timeRange = "Today" }) {
                       <stop offset="95%" stopColor="#8b5cf6" stopOpacity={0.0} />
                     </linearGradient>
                   </defs>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" vertical={false} />
-                  <XAxis dataKey="time" stroke="#64748b" fontSize={11} tickLine={false} />
-                  <YAxis stroke="#64748b" fontSize={11} tickLine={false} unit="%" domain={[0, 100]} />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#2A3A55" vertical={false} />
+                  <XAxis dataKey="time" stroke="#A8B3C7" fontSize={11} tickLine={false} />
+                  <YAxis stroke="#A8B3C7" fontSize={11} tickLine={false} unit="%" domain={[0, 100]} />
                   <Tooltip content={<CustomTooltip unit="%" />} />
                   <Area
                     type="monotone"
@@ -945,9 +945,9 @@ function Dashboard({ timeRange = "Today" }) {
                       <stop offset="95%" stopColor="#818cf8" stopOpacity={0.0} />
                     </linearGradient>
                   </defs>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" vertical={false} />
-                  <XAxis dataKey="time" stroke="#64748b" fontSize={11} tickLine={false} />
-                  <YAxis stroke="#64748b" fontSize={11} tickLine={false} unit="M" />
+                  <CartesianGrid strokeDasharray="3 3" stroke="#2A3A55" vertical={false} />
+                  <XAxis dataKey="time" stroke="#A8B3C7" fontSize={11} tickLine={false} />
+                  <YAxis stroke="#A8B3C7" fontSize={11} tickLine={false} unit="M" />
                   <Tooltip content={<CustomTooltip unit="Mbps" />} />
                   <Area
                     type="monotone"

@@ -8,18 +8,18 @@
 }
 
 :root {
-  --bg-primary: #090d16;
-  --bg-secondary: #0d1322;
-  --bg-sidebar: #0a0e1a;
-  --bg-card: #121827;
-  --bg-card-hover: #182236;
+  --bg-primary: #0F172A;
+  --bg-secondary: #111C32;
+  --bg-sidebar: #0D1527;
+  --bg-card: #16213A;
+  --bg-card-hover: #1B2945;
 
-  --border: rgba(148, 163, 184, 0.10);
-  --border-bright: rgba(59, 130, 246, 0.25);
+  --border: #2A3A55;
+  --border-bright: #3B4E6D;
 
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #F1F5F9;
+  --text-secondary: #A8B3C7;
+  --text-muted: #7E90AA;
 
   --blue: #3b82f6;
   --indigo: #6366f1;
@@ -80,7 +80,7 @@ button {
   min-height: 100vh;
   width: 100%;
   display: flex;
-  background: #090d16;
+  background: #0F172A;
   color: var(--text-primary);
 }
 
@@ -107,8 +107,8 @@ button {
   background:
     linear-gradient(
       180deg,
-      rgba(9, 17, 31, 0.99),
-      rgba(6, 12, 23, 0.99)
+      #111C32 0%,
+      #0D1527 100%
     );
 
   border-right: 1px solid var(--border);
@@ -182,7 +182,7 @@ button {
 
   margin-top: 3px;
 
-  color: #64748b;
+  color: #A8B3C7;
 
   font-size: 9px;
 
@@ -198,7 +198,7 @@ button {
 .sidebar-section-title {
   margin: 27px 10px 11px;
 
-  color: #52647c;
+  color: #7E90AA;
 
   font-size: 9px;
 
@@ -303,7 +303,7 @@ button {
 }
 
 .nav-text small {
-  color: #52647c;
+  color: #A8B3C7;
 
   font-size: 10px;
 }
@@ -413,7 +413,7 @@ button {
   z-index: 50;
 
   background:
-    rgba(6, 10, 18, 0.84);
+    rgba(15, 23, 42, 0.90);
 
   border-bottom: 1px solid var(--border);
 
@@ -447,7 +447,7 @@ button {
 
   margin-bottom: 4px;
 
-  color: #52647c;
+  color: #7E90AA;
 
   font-size: 9px;
 
@@ -459,7 +459,7 @@ button {
 .topbar-title h2 {
   margin: 0;
 
-  color: #f1f5f9;
+  color: #F1F5F9;
 
   font-size: 18px;
 
@@ -479,8 +479,8 @@ button {
   align-items: center;
   gap: 3px;
   padding: 3px 4px;
-  background: rgba(15, 23, 42, 0.75);
-  border: 1px solid rgba(148, 163, 184, 0.15);
+  background: #111C32;
+  border: 1px solid var(--border);
   border-radius: 8px;
 }
 
@@ -489,14 +489,14 @@ button {
   align-items: center;
   justify-content: center;
   padding: 0 4px 0 6px;
-  color: #64748b;
+  color: #7E90AA;
 }
 
 .range-pill {
   padding: 5px 12px;
   font-size: 11px;
   font-weight: 600;
-  color: #94a3b8;
+  color: #A8B3C7;
   background: transparent;
   border: 1px solid transparent;
   border-radius: 6px;
@@ -505,8 +505,8 @@ button {
 }
 
 .range-pill:hover {
-  color: #f1f5f9;
-  background: rgba(56, 189, 248, 0.08);
+  color: #F1F5F9;
+  background: rgba(56, 189, 248, 0.12);
 }
 
 .range-pill.active {
@@ -690,8 +690,8 @@ button {
   background:
     linear-gradient(
       145deg,
-      rgba(18, 29, 49, 0.98),
-      rgba(10, 18, 33, 0.98)
+      #182642 0%,
+      #142037 100%
     );
 
   border: 1px solid var(--border);
@@ -699,7 +699,7 @@ button {
   border-radius: 14px;
 
   box-shadow:
-    0 10px 28px rgba(0, 0, 0, 0.23);
+    0 8px 24px rgba(0, 0, 0, 0.18);
 
   transition:
     transform 0.25s ease,
@@ -926,8 +926,8 @@ button {
   background:
     linear-gradient(
       145deg,
-      rgba(17, 28, 47, 0.98),
-      rgba(9, 16, 30, 0.98)
+      #182642 0%,
+      #142037 100%
     );
 
   border: 1px solid var(--border);
@@ -935,7 +935,7 @@ button {
   border-radius: 14px;
 
   box-shadow:
-    0 12px 30px rgba(0, 0, 0, 0.2);
+    0 10px 28px rgba(0, 0, 0, 0.18);
 }
 
 .chart-header h3 {
@@ -1033,8 +1033,8 @@ button {
   background:
     linear-gradient(
       145deg,
-      rgba(17, 28, 47, 0.98),
-      rgba(9, 16, 30, 0.98)
+      #182642 0%,
+      #142037 100%
     );
 
   border: 1px solid var(--border);
@@ -1042,7 +1042,7 @@ button {
   border-radius: 14px;
 
   box-shadow:
-    0 12px 30px rgba(0, 0, 0, 0.2);
+    0 10px 28px rgba(0, 0, 0, 0.18);
 }
 
 /* =========================================================
@@ -1331,11 +1331,11 @@ button {
   background:
     linear-gradient(
       90deg,
-      #0c1729,
-      #101b2f
+      #111C32,
+      #16213A
     );
 
-  color: #6f86a1;
+  color: #A8B3C7;
 
   text-align: left;
 
@@ -1494,8 +1494,8 @@ button {
   background:
     linear-gradient(
       145deg,
-      rgba(17, 28, 47, 0.98),
-      rgba(9, 16, 30, 0.98)
+      #182642 0%,
+      #142037 100%
     );
 
   border: 1px solid var(--border);
@@ -1551,8 +1551,8 @@ button {
   background:
     linear-gradient(
       145deg,
-      rgba(17, 28, 47, 0.98),
-      rgba(9, 16, 30, 0.98)
+      #182642 0%,
+      #142037 100%
     );
 
   border: 1px solid var(--border);
@@ -1603,8 +1603,8 @@ button {
   background:
     linear-gradient(
       145deg,
-      rgba(17, 28, 47, 0.98),
-      rgba(9, 16, 30, 0.98)
+      #182642 0%,
+      #142037 100%
     );
 
   border: 1px solid var(--border);
@@ -2018,8 +2018,8 @@ button {
   overflow-x: auto;
   border: 1px solid var(--border);
   border-radius: 14px;
-  background: rgba(16, 26, 44, 0.72);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  background: #16213A;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
 }
 
 .asset-table tbody tr {
@@ -2054,8 +2054,8 @@ button {
   text-align: center;
   background: linear-gradient(
     145deg,
-    rgba(17, 28, 47, 0.98),
-    rgba(9, 16, 30, 0.98)
+    #182642 0%,
+    #142037 100%
   );
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
   transition:
@@ -2462,8 +2462,8 @@ button {
   border-radius: 14px;
   background: linear-gradient(
     145deg,
-    rgba(17, 28, 47, 0.98),
-    rgba(9, 16, 30, 0.98)
+    #182642 0%,
+    #142037 100%
   );
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
   transition:
@@ -2560,8 +2560,8 @@ button {
   border-radius: 14px;
   background: linear-gradient(
     145deg,
-    rgba(17, 28, 47, 0.98),
-    rgba(9, 16, 30, 0.98)
+    #182642 0%,
+    #142037 100%
   );
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
 }
